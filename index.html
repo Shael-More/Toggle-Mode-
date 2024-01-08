@@ -29,12 +29,22 @@
                 </button>
             </div>
 
+            <div class="search-box">
+                <input type="text" placeholder="enter city name" spellcheck="false">
+                <button>Search</button>
+            </div>
+
             <div class="app-content">
                 <button class="btn btn-block">
                     <span class="subtle">Period</span>
                     <span>Today</span>
                     <div class="btn btn-small"><i class="fas fa-chevron-right"></i></div>
                 </button>
+
+                <div class="location">
+                    <div class="city"></div>
+                    <img src="" class="images">
+                </div>
 
                 <div class="btn btn-dial">
                     <span class="btn-dial-spoke"></span>
@@ -47,19 +57,20 @@
                     <div class="btn-dail-top"></div>
                     <div class="btn-dial-label">
                         <i class="fas fa-light fa-temperature-half"></i>
-                        27&deg;C
+                        <span class="temp"></span>
+                        
                     </div>
                 </div>
 
                 <div class="flex-btn-container">
                     <button class="btn btn-large">
-                        <i class="fas fa-light fa-cloud-rain fa-2xl" style="color:#1885ffe3;"></i>13%
+                        <img src="assets/humidity.png" class="images">
+                        <span class="humidity"></span>
                     </button>
                     <button class="btn btn-large">
-                        <i class="fas fa-light fa-wind fa-2xl" style="color:#0f345fe3;" id="wind"></i>6 Km/h
+                        <img src="assets/wind.png" class="images">
+                        <span class=" wind-speed"></span>
                     </button>
-
-
                 </div>
             </div>
         </div>
